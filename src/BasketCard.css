@@ -1,0 +1,41 @@
+.settingCount{
+    background-color: white;
+    width: 80%;
+    position: absolute;
+    z-index: 3;
+    top: 55%;
+    left: 10%;
+    transition: 0.5s;
+    transform: scale(0);
+}
+
+.count{
+    opacity: 1!important;
+}
+
+.basketCard{
+    position: relative;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+
+.my_bg_red{
+    background-color: rgb(243, 95, 95);
+}
+
+.deleteButton{
+    position: absolute;
+    top: 30%;
+    right: -15%;
+    transition: 0.5s;
+}
+
+.basketCard:hover > .deleteButton{
+    right: 5%;
+}
+
+.basketCard:hover > .settingCount{
+    transform: scale(1);
+}
+
+

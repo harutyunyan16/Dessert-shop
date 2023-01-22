@@ -1,0 +1,15 @@
+.basket{
+    width: 35%;
+    background-color: rgb(183, 215, 244);
+    position: absolute;
+    top: 53px;
+    right: -35%;
+    z-index: 2;
+    padding: 10px;
+    height: 700px;
+    transition: 0.5s;
+}
+
+.open{
+    right: 0%;
+}

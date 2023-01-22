@@ -1,0 +1,99 @@
+.productCard{
+    background-color: whitesmoke;
+    position: relative;
+    overflow: hidden;
+}
+
+.productCard > img{
+    transition: 0.5s;
+}
+
+.productCard:hover > img{
+    transform: scale(1.03);
+}
+
+.productCard:hover > .prodButtonsGroup{
+    transform: scale(1);
+}
+
+.badges{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: flex;
+    width: 90%;
+}
+
+.my_badge{
+    height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.likeBadge{
+    position: absolute;
+    background-color: rgb(215, 131, 145);
+    z-index: 2;
+    height: 20px;
+    top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    right: 5%;
+}
+
+.likeBadge > p{
+    font-size: 12px;
+    color: white;
+}
+
+.my_badge > p{
+    font-size: 12px;
+    color: white;
+}
+
+.price{
+    color: rgb(207, 96, 96);
+    text-decoration: line-through;
+}
+
+.mybtn_yellow{
+    background-color: rgb(211, 214, 70);
+}
+
+.mybtn_pink{
+    background-color: rgb(215, 131, 145);
+}
+
+.mybtn_pink:hover{
+    background-color: white;
+    color: rgb(215, 131, 145)!important;
+    border-color: rgb(215, 131, 145);
+}
+
+.mybtn_yellow:hover{
+    background-color: white;
+    color: rgb(211, 214, 70)!important;
+    border-color: rgb(211, 214, 70);
+}
+
+
+.daysLeft{
+    left: 80px;
+}
+
+.prodButtonsGroup{
+    position: absolute;
+    top: 49%;
+    left: 25%;
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+    transition: 0.3s;
+    transform: scale(0);
+}
+
+.my_btn:hover{
+    transform: scale(0.9);
+}
